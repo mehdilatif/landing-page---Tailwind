@@ -5,14 +5,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="output.css" />
     <title>Bookmark landing page</title>
 </head>
 
-<body>
+<body class="font-Poppins">
     <!-- HEADER -->
     <header>
-        <nav class="container"></nav>
+        <nav class="container flex items-center py-4 mt-4 sm:mt-12">
+            <div class="py-1">
+                <img src="./imgs/logo-bookmark.svg" alt="" />
+            </div>
+            <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-blue uppercase">
+                <li class="cursor-pointer">Features</li>
+                <li class="cursor-pointer">Pricing</li>
+                <li class="cursor-pointer">Contact</li>
+                <button type="button" class="bg-bookmark-red text-white rounded-md px-7 py-3 uppercase">
+            Login
+          </button>
+            </ul>
+            <div class="flex sm:hidden flex-1 justify-end">
+                <i class="fa-solid fa-bars text-2xl"></i>
+            </div>
+        </nav>
     </header>
 </body>
 
